@@ -32,7 +32,6 @@ fn main() {
                 println!("Data: {:?}", data);
                 let mean = calculate_mean(&data);
                 println!("Mean: {}", mean);
-                // Add other statistical analyses here
             },
             Err(e) => println!("Error reading CSV: {}", e),
         }
@@ -70,4 +69,4 @@ fn calculate_mean(data: &[f64]) -> f64 {
     sum / data.len() as f64
 }
 
-// You can add more functions for other statistical calculations here, like median, standard deviation, etc.
+// TBC
