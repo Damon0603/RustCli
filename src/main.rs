@@ -8,7 +8,7 @@ use std::io::{BufWriter, Write};
 fn main() {
     let matches = App::new("RustCliAnalysis")
         .version("0.1.0")
-        .author("Your Name")
+        .author("Sebastian Breuer")
         .about("Performs basic epidemiological analysis and can generate sample data")
         .arg(Arg::with_name("file")
                  .help("The CSV file to process")
